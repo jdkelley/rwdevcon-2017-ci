@@ -45,5 +45,9 @@ class RWDevConTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+  
+  func testFailure() {
+    XCTFail("Make it fail")
+  }
     
 }
